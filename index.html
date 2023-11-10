@@ -3,40 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola</title>
+    <style>
+            body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #191970;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+        
+    }
+
+    nav {
+        background-color: #B58900;
+        color: white;
+        padding: 0.5em 0;
+    }
+
+    nav ul {
+        list-style: none;
+        text-align: center;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    section {
+        margin: 20px;
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    article {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        background-color: #191970;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    </style>
+    <title>Mi primera página Web</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <h1>Hola</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Emblem_Boca.png">
+        <h1>Proyecto Web</h1>
+        <p>Aprendiendo desarrollo Web</p>     
     </header>
 
     <nav>
         <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#biografia">Biografía</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
-    <section id="inicio">
-        <h2>Bienvenido a mi página web</h2>
-        <p>Esta es una página web simple creada con HTML y CSS.</p>
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>¡Hola! Soy Franco, un aprendiz de desarrollo web.</p>
     </section>
 
-    <section id="acerca">
-        <h2>Acerca de mí</h2>
-        <p>¡Hola! Soy Franco, un apasionado de la programación web.</p>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Ninguna loco, lo siento.</li>
+            <!-- Agrega tus habilidades -->
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <article>
+            <h3>Proyecto 1</h3>
+            <p>Primer desarrollo web con asistencia de ChatGPT.</p>
+        </article>
+
+        <!-- Puedes agregar más proyectos aquí -->
+    </section>
+
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>Nací y crecí en Argentina. Desde joven me interesan la tecnología y las computadoras.</p>
     </section>
 
     <section id="contacto">
         <h2>Contacto</h2>
-        <p>Puedes contactarme en: ejemplo@email.com</p>
+        <p>Puedes contactarme en: franco@email.com</p>
     </section>
 
     <footer>
-        <p>&copy; 2023 Mi Página Web</p>
+        <p>&copy; 2023 All Rights Reserved</p>
     </footer>
 
 </body>
